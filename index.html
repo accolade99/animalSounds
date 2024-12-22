@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animalSounds</title>
+    <style>
+        body{
+            text-align: center; background-color: #abf0b1;
+        }
+        h1{
+            color: green; font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top:3px; text-shadow: 1px 2px 2px rgb(92, 92, 5); font-size: 30px;
+        }
+        h3{
+            color: green; font-size: 25px;
+        }
+        #soundOutput{
+            font-size: 22px; color: rgb(153, 153, 4);
+        }
+        #soundButton{
+            border-radius: 10px; border: 1px solid green; box-shadow: 1px 1px 2px;
+        }
+        #animalInput{
+            border: 1px solid green; box-shadow: 1px 1px 2px;
+        }
+        img{
+            margin-top: 100px; box-shadow: 2px 2px 2px rgb(92, 92, 5);
+            border-radius: 5px;
+        }   
+
+
+    </style>
+</head>
+<body>
+    <img height="50" width="60" src="./animalSoundLogo.png" alt="logo image">
+    <h1>Dandy's Animal Sounds App</h1>
+    <label for="">Enter animal Name:</label>
+    <input type="text" id="animalInput" placeholder="e.g. dog">
+    <button id="soundButton">Get Sound</button>
+    <h3>Sound:</h3>
+    <p id="soundOutput"></p>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
